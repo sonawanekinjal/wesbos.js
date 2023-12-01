@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+}
+.panels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6b0f9c;
+  color: white;
+  cursor: pointer;
+  transition: flex 1s ease-in-out;
+  height: 100%;
+}
+.panels p {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.panel{
+  flex: 1;
+  height: 100%;
+}
+.panel1 {
+  background-image: url(../assets/panel1.jpg);
+  background-repeat: no-repeat;
+}
+.panel2 {
+  background-image: url(../assets/panel2.jpg);
+}
+.panel3 {
+  background-image: url(../assets/panel3.jpg);
+  background-repeat: no-repeat;
+}
+.panel4 {
+  background-image: url(../assets/panel4.jpg);
+}
+.panel5 {
+  background-image: url(../assets/panel5.jpg);
+  background-repeat: no-repeat;
+}
+
+.panel1:hover {
+  color: green;
+}
+.panel2:hover {
+  color: red;
+}
+.panel3:hover {
+  color: blue;
+}
+.panel4:hover {
+  color: darkorchid;
+}
+.panel5:hover {
+  color: darkorange;
+}
+.open {
+  flex: 5;
+}
